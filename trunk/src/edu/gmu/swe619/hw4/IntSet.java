@@ -107,7 +107,6 @@ public class IntSet {
 		// returns an arbitrary element of this.
 		if(sz == 0) throw new Exception("IntSet.choose");
 		if(otherEls.size() > 0) { return (Integer)otherEls.lastElement(); }
-		int num = -1;
 		for(int i = 0; i < els.length; i++) {
 			if(els[i]) {
 				return i;
